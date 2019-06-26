@@ -3,7 +3,7 @@ from keras.models import Sequential
 from keras.layers import LSTM, Dense, Activation
 from keras.callbacks import ModelCheckpoint
 
-with open("../sonnets.txt") as corpus_file:
+with open("../shahriar.txt") as corpus_file:
     corpus = corpus_file.read()
 print("Loaded a corpus of {0} characters".format(len(corpus)))
 

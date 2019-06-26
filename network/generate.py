@@ -55,3 +55,8 @@ class GenerativeNetwork:
             pattern = self.corpus[seed:seed + self.sentence_length]
 
         return pattern
+
+
+gn = GenerativeNetwork("../sonnets.txt", "./model.yaml", "./weights-30-0.727.hdf5")
+print("\n\n")
+print(gn.generate(gn.make_seed()))

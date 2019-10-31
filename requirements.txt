@@ -1,4 +1,4 @@
-Flask==0.12
+Flask==1.0
 Flask-WTF==0.14.2
 gunicorn==19.6.0
 h5py==2.6.0
